@@ -1,0 +1,23 @@
+{
+  "name": "yamigrate",
+  "version": "1.0.0",
+  "description": "Yet another postgres db migration tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfulrich/yamigrate.git"
+  },
+  "author": "Andrew Ulrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewfulrich/yamigrate/issues"
+  },
+  "homepage": "https://github.com/andrewfulrich/yamigrate#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.3.3"
+  }
+}

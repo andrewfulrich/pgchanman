@@ -5,6 +5,7 @@ Postgres db change management tool.
 ## Features
 
 - extremely simple, just write your migration scripts and run the command
+- keeps track in a `migrations` table of which migration scripts have already run and does not run them again
 - dotenv compatible
 - migration scripts are run in a transaction with auto-rollback on error
 

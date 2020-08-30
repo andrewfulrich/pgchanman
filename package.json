@@ -1,5 +1,5 @@
 {
-  "name": "yamigrate",
+  "name": "pgchanman",
   "version": "1.0.3",
   "description": "Yet another postgres db migration tool",
   "main": "index.js",
@@ -7,18 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "yamigrate": "./index.js"
+    "pgchanman": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewfulrich/yamigrate.git"
+    "url": "https://github.com/andrewfulrich/pgchanman.git"
   },
   "author": "Andrew Ulrich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewfulrich/yamigrate/issues"
+    "url": "https://github.com/andrewfulrich/pgchanman/issues"
   },
-  "homepage": "https://github.com/andrewfulrich/yamigrate#readme",
+  "homepage": "https://github.com/andrewfulrich/pgchanman#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "pg": "^8.3.3"
